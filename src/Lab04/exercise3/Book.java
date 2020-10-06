@@ -48,4 +48,8 @@ public class Book {
     public void setPages(int pages) {
         this.pages = pages;
     }
+
+    public String toString() {
+        return "Title: "+getTitle()+"\tPrice: " + getPrice() + "\tISBN: " + getISBN() + "\tPages: " + getPages();
+    }
 }
